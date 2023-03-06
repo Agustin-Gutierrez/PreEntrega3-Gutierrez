@@ -8,6 +8,7 @@ body{
     grid-template-rows: auto 1fr auto;
 }
 
+/* Estilo para Index */
 .contenedor-inicio {
     text-align: center;
     background-color: #383838;
