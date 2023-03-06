@@ -27,7 +27,7 @@ combinación de clases de Bootstrap y estilos personalizados para lograr el dise
 La entrega se cargó en un repositorio público de GitHub. Se pueden encontrar la página en la siguiente ruta:
 
 * https://github.com/Agustin-Gutierrez/PreEntrega2-Gutierrez
-* https://agustin-gutierrez.github.io/PreEntrega2-Gutierrez/pages/nosotros.html
+* https://agustin-gutierrez.github.io/PreEntrega2-Gutierrez/
 
 ## Creador
 Este proyecto fue creado por Agustín Gutiérrez para el curso de Desarrollo Web.
