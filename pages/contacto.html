@@ -51,7 +51,7 @@
     </header>
 
     <!-- Sección Contacto -->
-    <section>
+    <section >
         <div class="descripcion-nosotros">
             <!--Section heading-->
             <h1>Contacto</h1>
@@ -60,63 +60,64 @@
                 Utiliza el siguiente formulario de contacto para comunicarte con nosotros. A la brevedad uno de nuestros representantes se estará comunicando contigo.
             </p>
         </div>    
-    </section>
-    <section class="mb-4 contenedor-contacto">
-        <div class="row">
-                <!--Grid column-->
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                    <!--Grid row-->
-                    <div class="row">
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" class="">Nombre</label>
+    
+        <div class="mb-4 contenedor-contacto">
+            <div class="row">
+                    <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Nombre</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Correo Electrónico</label>
+                                </div>
                             </div>
                         </div>
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
-                                <label for="email" class="">Correo Electrónico</label>
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Asunto</label>
+                                </div>
                             </div>
                         </div>
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message" class="mensaje">Mensaje</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center text-md-left enviar">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                     </div>
-                    <!--Grid row-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
-                                <input type="text" id="subject" name="subject" class="form-control">
-                                <label for="subject" class="">Asunto</label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid row-->
-                    <div class="row">
-                        <!--Grid column-->
-                        <div class="col-md-12">
-                            <div class="md-form">
-                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                <label for="message" class="mensaje">Mensaje</label>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="text-center text-md-left enviar">
-                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                 </div>
-            </div>
-            <!--Grid column-->
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li>
-                        <p>27 de Abril 2050, Córdoba, Argentina</p>
-                    </li>
-                    <li>
-                        <p>Tel: + 54 234 567 89</p>
-                    </li>
-                </ul>
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <p>27 de Abril 2050, Córdoba, Argentina</p>
+                        </li>
+                        <li>
+                            <p>Tel: + 54 234 567 89</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>

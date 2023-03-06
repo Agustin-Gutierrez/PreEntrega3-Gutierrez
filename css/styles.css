@@ -170,6 +170,26 @@ body{
     padding: 3%;
 }
 
+/* Start: Video Responsive */
+.video-responsive {
+    overflow:hidden;
+    margin-left:25%;
+    padding-bottom:25%;
+    position:relative;
+    height:0;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:70%;
+    position:absolute;
+}
+/* End: Video Responsive */
+
 /* Estilo para el Contacto */
 .descripcion-contacto{
     background-color: #383838;
@@ -183,7 +203,7 @@ body{
     padding-top: 2%;
 }
 
-.descripcion-ccontactoac p{
+.descripcion-contacto p{
     font-size: 20px;
     padding-top: 1.5%;
     padding-bottom: 2%;
@@ -192,10 +212,12 @@ body{
 }
 
 .contenedor-contacto{
+    display: flex;
     text-align: center;
     padding-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
+    
 }
 
 .contenedor-contacto h1{
@@ -206,6 +228,7 @@ body{
 .contenedor-contacto p{
     font-size: 20px;
     margin-left: 5%;
+    
 }
 
 .enviar{
