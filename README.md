@@ -1,4 +1,4 @@
-# Pre-entrega 2 - Proyecto de Desarrollo Web
+# Pre-entrega 3 - Proyecto de Desarrollo Web
 
 Este es el repositorio para la tercera pre-entrega del curso de "Desarrollo Web". La consigna de la entrega es:
 
