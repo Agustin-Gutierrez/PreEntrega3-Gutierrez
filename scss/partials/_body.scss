@@ -1,0 +1,55 @@
+@use './variables';
+/* Estilo para el Body */
+body{
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+
+    /* Estilo para Index */
+    .contenedor-inicio {
+        text-align: center;
+        background-color: variables.$background-color;
+        height: auto;
+
+        .row{
+            width: 100%;
+        }
+
+        .imagen-centrada {
+            display: block;
+            margin: 2% auto;
+            width: 60%;
+        }
+                
+        .imagen-esquinas-redondeadas {
+            border-radius: 10px;
+        }
+
+        .contenedor-texto{
+            font-size: x-large;
+            color: azure;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-bottom: 2%;
+        }
+    }
+
+    .contenedor-lugares{
+        text-align: center;
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+
+
+        img {
+            padding-top: 10%;
+            padding-bottom: 10%;
+            border-radius: 40%;
+
+            
+        }
+        
+    }
+}

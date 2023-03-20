@@ -1,0 +1,46 @@
+/* Estilo para el Contacto */
+.descripcion-contacto{
+    background-color: #383838;
+    width: 100%;
+    color:azure;
+    text-align: center;
+
+    h1{
+        font-size: 55px;
+        padding-top: 2%;
+    }
+
+    p{
+        font-size: 20px;
+        padding-top: 1.5%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.contenedor-contacto{
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    h1{
+        font-size: 55px;
+        margin-bottom: 2%;
+    }
+
+    p{
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    
+    .enviar{
+        padding-top: 2%;
+    }
+
+    .direccion{
+        margin-top: 10%;
+    }
+    
+}

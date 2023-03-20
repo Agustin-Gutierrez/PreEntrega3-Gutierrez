@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contacto - CórdobaClimbs</title>
     <link rel="shortcut icon" href="../images/icons8-bouldering-skin-type-2-96.png" type="image/x-icon">
 
     
@@ -62,56 +62,57 @@
                 Utiliza el siguiente formulario de contacto para comunicarte con nosotros. A la brevedad uno de nuestros representantes se estará comunicando contigo.
             </p>
         </div>    
-    
-        <div class="mb-4 contenedor-contacto">
-            <div class="row">
-                <!--Grid column-->
-                <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                        <!--Grid row-->
-                        <div class="row">
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Nombre</label>
+        
+        <div class="container text-center contenedor-contacto">
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <!--Grid row-->
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Nombre</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Correo Electrónico</label>
+                                    </div>
                                 </div>
                             </div>
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Correo Electrónico</label>
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Asunto</label>
+                                    </div>
                                 </div>
                             </div>
+                            <!--Grid row-->
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        <label for="message" class="mensaje">Mensaje</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="text-center text-md-left enviar">
+                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
                         </div>
-                        <!--Grid row-->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Asunto</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Grid row-->
-                        <div class="row">
-                            <!--Grid column-->
-                            <div class="col-md-12">
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    <label for="message" class="mensaje">Mensaje</label>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                    <div class="text-center text-md-left enviar">
-                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                     </div>
                 </div>
-                <!--Grid column-->
-                <div class="col-md-3 text-center">
-                    <ul class="list-unstyled mb-0">
+                
+                <div class="col">
+                    <ul class="list-unstyled mb-0 direccion">
                         <li>
                             <p>27 de Abril 2050, Córdoba, Argentina</p>
                         </li>
@@ -122,6 +123,7 @@
                 </div>
             </div>
         </div>
+        
     </section>
 
     <!-- Footer -->

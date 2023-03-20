@@ -1,0 +1,13 @@
+/* Estilo para el footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 60px;
+    width: 100%;
+    /* Estilo para el contenido del footer */
+    p {
+        margin: 0;
+    }
+}
